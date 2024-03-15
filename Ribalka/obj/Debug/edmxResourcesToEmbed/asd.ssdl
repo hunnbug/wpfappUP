@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Хранилище RibolovnieSnasti2Model" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Sklad">
+    <Key>
+      <PropertyRef Name="SkladID" />
+    </Key>
+    <Property Name="SkladID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="SotrudnikiAmount" Type="int" />
+    <Property Name="Adres" Type="varchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="Snasti">
+    <Key>
+      <PropertyRef Name="SnastID" />
+    </Key>
+    <Property Name="SnastID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="SnastName" Type="varchar" MaxLength="50" />
+    <Property Name="Cvet" Type="varchar" MaxLength="50" />
+    <Property Name="TypeOfSnast" Type="varchar" MaxLength="50" />
+    <Property Name="Razmer" Type="varchar" MaxLength="30" />
+    <Property Name="IDSklad" Type="int" />
+  </EntityType>
+  <EntityType Name="Sotrudniki">
+    <Key>
+      <PropertyRef Name="SotrudnikID" />
+    </Key>
+    <Property Name="SotrudnikID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="SotrudnikName" Type="varchar" MaxLength="50" />
+    <Property Name="SotrudnikSurname" Type="varchar" MaxLength="50" />
+    <Property Name="SotrudnikMiddleName" Type="varchar" MaxLength="50" />
+    <Property Name="IDSklad" Type="int" />
+  </EntityType>
+  <Association Name="FK__Snasti__IDSklad__4BAC3F29">
+    <End Role="Sklad" Type="Self.Sklad" Multiplicity="0..1" />
+    <End Role="Snasti" Type="Self.Snasti" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Sklad">
+        <PropertyRef Name="SkladID" />
+      </Principal>
+      <Dependent Role="Snasti">
+        <PropertyRef Name="IDSklad" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Sotrudnik__IDSkl__4E88ABD4">
+    <End Role="Sklad" Type="Self.Sklad" Multiplicity="0..1" />
+    <End Role="Sotrudniki" Type="Self.Sotrudniki" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Sklad">
+        <PropertyRef Name="SkladID" />
+      </Principal>
+      <Dependent Role="Sotrudniki">
+        <PropertyRef Name="IDSklad" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Хранилище RibolovnieSnasti2ModelContainer">
+    <EntitySet Name="Sklad" EntityType="Self.Sklad" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Snasti" EntityType="Self.Snasti" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Sotrudniki" EntityType="Self.Sotrudniki" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__Snasti__IDSklad__4BAC3F29" Association="Self.FK__Snasti__IDSklad__4BAC3F29">
+      <End Role="Sklad" EntitySet="Sklad" />
+      <End Role="Snasti" EntitySet="Snasti" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Sotrudnik__IDSkl__4E88ABD4" Association="Self.FK__Sotrudnik__IDSkl__4E88ABD4">
+      <End Role="Sklad" EntitySet="Sklad" />
+      <End Role="Sotrudniki" EntitySet="Sotrudniki" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

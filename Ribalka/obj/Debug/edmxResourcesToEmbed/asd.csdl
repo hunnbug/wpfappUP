@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="RibolovnieSnasti2Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Sklad">
+    <Key>
+      <PropertyRef Name="SkladID" />
+    </Key>
+    <Property Name="SkladID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="SotrudnikiAmount" Type="Int32" />
+    <Property Name="Adres" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Snasti" Relationship="Self.FK__Snasti__IDSklad__4BAC3F29" FromRole="Sklad" ToRole="Snasti" />
+    <NavigationProperty Name="Sotrudniki" Relationship="Self.FK__Sotrudnik__IDSkl__4E88ABD4" FromRole="Sklad" ToRole="Sotrudniki" />
+  </EntityType>
+  <EntityType Name="Snasti">
+    <Key>
+      <PropertyRef Name="SnastID" />
+    </Key>
+    <Property Name="SnastID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="SnastName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Cvet" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="TypeOfSnast" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Razmer" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="IDSklad" Type="Int32" />
+    <NavigationProperty Name="Sklad" Relationship="Self.FK__Snasti__IDSklad__4BAC3F29" FromRole="Snasti" ToRole="Sklad" />
+  </EntityType>
+  <EntityType Name="Sotrudniki">
+    <Key>
+      <PropertyRef Name="SotrudnikID" />
+    </Key>
+    <Property Name="SotrudnikID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="SotrudnikName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="SotrudnikSurname" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="SotrudnikMiddleName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="IDSklad" Type="Int32" />
+    <NavigationProperty Name="Sklad" Relationship="Self.FK__Sotrudnik__IDSkl__4E88ABD4" FromRole="Sotrudniki" ToRole="Sklad" />
+  </EntityType>
+  <Association Name="FK__Snasti__IDSklad__4BAC3F29">
+    <End Role="Sklad" Type="Self.Sklad" Multiplicity="0..1" />
+    <End Role="Snasti" Type="Self.Snasti" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Sklad">
+        <PropertyRef Name="SkladID" />
+      </Principal>
+      <Dependent Role="Snasti">
+        <PropertyRef Name="IDSklad" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Sotrudnik__IDSkl__4E88ABD4">
+    <End Role="Sklad" Type="Self.Sklad" Multiplicity="0..1" />
+    <End Role="Sotrudniki" Type="Self.Sotrudniki" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Sklad">
+        <PropertyRef Name="SkladID" />
+      </Principal>
+      <Dependent Role="Sotrudniki">
+        <PropertyRef Name="IDSklad" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="RibolovnieSnasti2Entities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Sklad" EntityType="Self.Sklad" />
+    <EntitySet Name="Snasti" EntityType="Self.Snasti" />
+    <EntitySet Name="Sotrudniki" EntityType="Self.Sotrudniki" />
+    <AssociationSet Name="FK__Snasti__IDSklad__4BAC3F29" Association="Self.FK__Snasti__IDSklad__4BAC3F29">
+      <End Role="Sklad" EntitySet="Sklad" />
+      <End Role="Snasti" EntitySet="Snasti" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Sotrudnik__IDSkl__4E88ABD4" Association="Self.FK__Sotrudnik__IDSkl__4E88ABD4">
+      <End Role="Sklad" EntitySet="Sklad" />
+      <End Role="Sotrudniki" EntitySet="Sotrudniki" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

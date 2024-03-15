@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище RibolovnieSnasti2ModelContainer" CdmEntityContainer="RibolovnieSnasti2Entities">
+    <EntitySetMapping Name="Sklad">
+      <EntityTypeMapping TypeName="RibolovnieSnasti2Model.Sklad">
+        <MappingFragment StoreEntitySet="Sklad">
+          <ScalarProperty Name="SkladID" ColumnName="SkladID" />
+          <ScalarProperty Name="SotrudnikiAmount" ColumnName="SotrudnikiAmount" />
+          <ScalarProperty Name="Adres" ColumnName="Adres" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Snasti">
+      <EntityTypeMapping TypeName="RibolovnieSnasti2Model.Snasti">
+        <MappingFragment StoreEntitySet="Snasti">
+          <ScalarProperty Name="SnastID" ColumnName="SnastID" />
+          <ScalarProperty Name="SnastName" ColumnName="SnastName" />
+          <ScalarProperty Name="Cvet" ColumnName="Cvet" />
+          <ScalarProperty Name="TypeOfSnast" ColumnName="TypeOfSnast" />
+          <ScalarProperty Name="Razmer" ColumnName="Razmer" />
+          <ScalarProperty Name="IDSklad" ColumnName="IDSklad" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Sotrudniki">
+      <EntityTypeMapping TypeName="RibolovnieSnasti2Model.Sotrudniki">
+        <MappingFragment StoreEntitySet="Sotrudniki">
+          <ScalarProperty Name="SotrudnikID" ColumnName="SotrudnikID" />
+          <ScalarProperty Name="SotrudnikName" ColumnName="SotrudnikName" />
+          <ScalarProperty Name="SotrudnikSurname" ColumnName="SotrudnikSurname" />
+          <ScalarProperty Name="SotrudnikMiddleName" ColumnName="SotrudnikMiddleName" />
+          <ScalarProperty Name="IDSklad" ColumnName="IDSklad" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
