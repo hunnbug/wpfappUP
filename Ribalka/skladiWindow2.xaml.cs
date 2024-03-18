@@ -19,11 +19,11 @@ namespace Ribalka
     /// </summary>
     public partial class skladiWindow2 : Window
     {
-        private RibolovnieSnasti2Entities ribalka   = new RibolovnieSnasti2Entities();
+        MainWindow main                             = new MainWindow();
         public skladiWindow2()
         {
             InitializeComponent();
-            skladiDG2.ItemsSource = ribalka.Sklad.ToList();
+            skladiDG2.ItemsSource                   = main.ribalka.Snasti.ToList();
         }
 
         private void AddClick(object sender, RoutedEventArgs e)
@@ -32,23 +32,20 @@ namespace Ribalka
             {
                 if (address.Text != "" && kolvo.Text != "")
                 {
-                    var sklad = new Sklad();
-                    sklad.Adres = address.Text;
-                    sklad.SotrudnikiAmount = Convert.ToInt32(kolvo.Text);
-                    ribalka.Sklad.Add(sklad);
+                    var sklad                       = new Sklad();
+                    sklad.Adres                     = address.Text;
+                    sklad.SotrudnikiAmount          = Convert.ToInt32(kolvo.Text);
+                    main.ribalka.Sklad.Add(sklad);
 
-                    ribalka.SaveChanges();
-                    skladiDG2.ItemsSource = ribalka.Sklad.ToList();    
+                    main.ribalka.SaveChanges();
+                    skladiDG2.ItemsSource           = main.ribalka.Sklad.ToList();    
                 }
                 else
                 {
                     MessageBox.Show("все поля должны быть не пустыми");
                 }
             }
-            catch
-            {
-                MessageBox.Show("борода");
-            }
+            catch { MessageBox.Show("борода"); }
         }
 
         private void ChngClick(object sender, RoutedEventArgs e)
@@ -59,41 +56,33 @@ namespace Ribalka
                 {
                     var selected = skladiDG2.SelectedItem as Sklad;
 
-                    selected.SotrudnikiAmount = Convert.ToInt32(kolvo2.Text);
-                    selected.Adres = address2.Text;
+                    selected.SotrudnikiAmount       = Convert.ToInt32(kolvo2.Text);
+                    selected.Adres                  = address2.Text;
 
-                    ribalka.SaveChanges();
-                    skladiDG2.ItemsSource = ribalka.Sklad.ToList();
+                    main.ribalka.SaveChanges();
+                    skladiDG2.ItemsSource           = main.ribalka.Sklad.ToList();
                 }
                 else
                 {
                     MessageBox.Show("все поля должны быть не пустыми");
                 }
             }
-            catch
-            {
-                MessageBox.Show("борода");
-            }
+            catch { MessageBox.Show("борода"); }
         }
 
         private void DltClick(object sender, RoutedEventArgs e)
         {
             try
             {
-
-
                 if (skladiDG2.SelectedItem != null)
                 {
-                    ribalka.Sklad.Remove(skladiDG2.SelectedItem as Sklad);
-                    ribalka.SaveChanges();
+                    main.ribalka.Sklad.Remove(skladiDG2.SelectedItem as Sklad);
+                    main.ribalka.SaveChanges();
 
-                    skladiDG2.ItemsSource = ribalka.Sklad.ToList();
+                    skladiDG2.ItemsSource           = main.ribalka.Sklad.ToList();
                 }
             }
-            catch
-            {
-                MessageBox.Show("борода");
-            }
+            catch { MessageBox.Show("борода"); }
         }
     }
 }

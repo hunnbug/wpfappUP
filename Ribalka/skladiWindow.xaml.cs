@@ -32,18 +32,14 @@ namespace Ribalka
             {
                 if (address.Text != "" && kolvo.Text != "")
                 {
-                    main.skladi.InsertQuery(Convert.ToInt32(kolvo.Text), address.Text as string);
-                    skladiDG.ItemsSource = main.skladi.GetData();
+                    main.skladi.InsertQuery
+                    (Convert.ToInt32(kolvo.Text), address.Text);
+
+                    skladiDG.ItemsSource                = main.skladi.GetData();
                 }
-                else
-                {
-                    MessageBox.Show("Все поля должны быть заполнены");
-                }
+                else { MessageBox.Show("Все поля должны быть заполнены"); }
             }
-            catch (System.FormatException)
-            {
-                MessageBox.Show("поле количество должно иметь циферный формат, а ардес - строчный");
-            }
+            catch (System.FormatException) { MessageBox.Show("поле количество должно иметь циферный формат, а ардес - строчный"); }
         }
 
         private void ChngClick(object sender, RoutedEventArgs e)
@@ -54,18 +50,15 @@ namespace Ribalka
                 if (address2.Text != "" && kolvo2.Text != "" && skladiDG.SelectedItem as DataRowView != null)
                 {
                     object Id = (skladiDG.SelectedItem as DataRowView).Row[0];
-                    main.skladi.UpdateQuery(Convert.ToInt32(kolvo2.Text), address2.Text, Convert.ToInt32(Id));
-                    skladiDG.ItemsSource = main.skladi.GetData();
+
+                    main.skladi.UpdateQuery
+                    (Convert.ToInt32(kolvo2.Text), address2.Text, Convert.ToInt32(Id));
+
+                    skladiDG.ItemsSource                = main.skladi.GetData();
                 }
-                else
-                {
-                    MessageBox.Show("Все поля должны быть заполнены");
-                }
+                else { MessageBox.Show("Все поля должны быть заполнены"); }
             }
-            catch (System.FormatException)
-            {
-                MessageBox.Show("поле количество должно иметь циферный формат, а ардес - строчный");
-            }
+            catch (System.FormatException) { MessageBox.Show("поле количество должно иметь циферный формат, а ардес - строчный"); }
         }
 
         private void DltClick(object sender, RoutedEventArgs e)
@@ -74,14 +67,13 @@ namespace Ribalka
             {
                 try
                 {
-                    object id = (skladiDG.SelectedItem as DataRowView).Row[0];
-                    main.skladi.DeleteQuery(Convert.ToInt32(id));
-                    skladiDG.ItemsSource = main.skladi.GetData();
+                    object id                           = (skladiDG.SelectedItem as DataRowView).Row[0];
+
+                    main.skladi.DeleteQuery             (Convert.ToInt32(id));
+
+                    skladiDG.ItemsSource                = main.skladi.GetData();
                 }
-                catch (System.FormatException)
-                {
-                    MessageBox.Show("Поле должно иметь циферный формат");
-                }
+                catch (System.FormatException) { MessageBox.Show("Поле должно иметь циферный формат"); }
             }
         }
     }
