@@ -9,10 +9,25 @@
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
+            <RowDefinition Height="3*"/>
             <RowDefinition/>
+            <RowDefinition Height="2*"/>
         </Grid.RowDefinitions>
-        <DataGrid x:Name="sotrudnikiDG2" d:ItemsSource="{d:SampleData ItemCount=5}" Grid.Column="0" Grid.Row="0"/>
+        <DataGrid x:Name="sotrudnikiDG2" d:ItemsSource="{d:SampleData ItemCount=5}" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="3"/>
+        <Button x:Name="AddButton"    Content="Добавить" HorizontalAlignment="Center" Grid.Row="1" VerticalAlignment="Center" Height="72" Width="266"/>
+        <Button x:Name="ChangeButton" Grid.Column="1" Content="Изменить" HorizontalAlignment="Center" Grid.Row="1" VerticalAlignment="Center" Height="72" Width="266"/>
+        <Button x:Name="DeleteButton" Grid.Column="2" Content="Удалить" HorizontalAlignment="Center" Grid.Row="1" VerticalAlignment="Center" Height="72" Width="266"/>
+        <TextBox HorizontalAlignment="Left" Margin="25,15,0,0" Grid.Row="2" TextWrapping="Wrap" Text="Имя" VerticalAlignment="Top" Width="192"/>
+        <TextBox HorizontalAlignment="Left" Margin="19,95,0,0" Grid.Row="2" TextWrapping="Wrap" Text="Фамилия" VerticalAlignment="Top" Width="192"/>
+        <TextBox HorizontalAlignment="Left" Margin="15,52,0,0" Grid.Row="2" TextWrapping="Wrap" Text="Отчество" VerticalAlignment="Top" Width="192"/>
+        <TextBox HorizontalAlignment="Left" Margin="26,73,0,0" Grid.Row="2" TextWrapping="Wrap" Text="Фамилия" VerticalAlignment="Top" Width="192" Grid.Column="1"/>
+        <TextBox HorizontalAlignment="Left" Margin="31,46,0,0" Grid.Row="2" TextWrapping="Wrap" Text="Имя" VerticalAlignment="Top" Width="192" Grid.Column="1"/>
+        <TextBox HorizontalAlignment="Left" Margin="16,122,0,0" Grid.Row="2" TextWrapping="Wrap" Text="Склад" VerticalAlignment="Top" Width="192"/>
+        <TextBox HorizontalAlignment="Left" Margin="39,122,0,0" Grid.Row="2" TextWrapping="Wrap" Text="Склад" VerticalAlignment="Top" Width="192" Grid.Column="1"/>
+        <TextBox HorizontalAlignment="Left" Margin="24,98,0,0" Grid.Row="2" TextWrapping="Wrap" Text="Отчество" VerticalAlignment="Top" Width="192" Grid.Column="1"/>
     </Grid>
 </Window>

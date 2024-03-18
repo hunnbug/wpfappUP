@@ -79,6 +79,14 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>asd.edmx</DependentUpon>
     </Compile>
+    <Compile Include="pfniu.cs">
+      <DependentUpon>pfniu.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="pfniu.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>pfniu.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Sklad.cs">
       <DependentUpon>asd.tt</DependentUpon>
     </Compile>
@@ -144,11 +152,6 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="pfniu.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>pfniu.xsd</DependentUpon>
-    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>

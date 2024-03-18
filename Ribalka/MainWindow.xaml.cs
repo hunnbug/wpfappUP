@@ -21,10 +21,10 @@ namespace Ribalka
     /// </summary>
     public partial class MainWindow : Window
     {
-        private SnastiTableAdapter snasti           = new SnastiTableAdapter();
-        private SkladTableAdapter skladi            = new SkladTableAdapter();
-        private SotrudnikiTableAdapter sotrudnkiki  = new SotrudnikiTableAdapter();
-        private RibolovnieSnasti2Entities ribalka   = new RibolovnieSnasti2Entities();
+        public SnastiTableAdapter snasti           = new SnastiTableAdapter();
+        public SkladTableAdapter skladi            = new SkladTableAdapter();
+        public SotrudnikiTableAdapter sotrudnkiki  = new SotrudnikiTableAdapter();
+        public RibolovnieSnasti2Entities ribalka   = new RibolovnieSnasti2Entities();
         public MainWindow() 
         {
             InitializeComponent();

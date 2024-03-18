@@ -3,48 +3,40 @@
   "WorkspaceRootPath": "D:\\CODING\\mocha\\c#\\Ribalka\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2256A241-37CF-435C-9105-E56A606E831E}|Ribalka\\Ribalka.csproj|D:\\CODING\\mocha\\c#\\Ribalka\\ribalka\\snastiwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{2256A241-37CF-435C-9105-E56A606E831E}|Ribalka\\Ribalka.csproj|solutionrelative:ribalka\\snastiwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2256A241-37CF-435C-9105-E56A606E831E}|Ribalka\\Ribalka.csproj|d:\\coding\\mocha\\c#\\ribalka\\ribalka\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2256A241-37CF-435C-9105-E56A606E831E}|Ribalka\\Ribalka.csproj|solutionrelative:ribalka\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2256A241-37CF-435C-9105-E56A606E831E}|Ribalka\\Ribalka.csproj|d:\\coding\\mocha\\c#\\ribalka\\ribalka\\sklad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2256A241-37CF-435C-9105-E56A606E831E}|Ribalka\\Ribalka.csproj|solutionrelative:ribalka\\sklad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2256A241-37CF-435C-9105-E56A606E831E}|Ribalka\\Ribalka.csproj|D:\\CODING\\mocha\\c#\\Ribalka\\ribalka\\skladiwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{2256A241-37CF-435C-9105-E56A606E831E}|Ribalka\\Ribalka.csproj|solutionrelative:ribalka\\skladiwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2256A241-37CF-435C-9105-E56A606E831E}|Ribalka\\Ribalka.csproj|D:\\CODING\\mocha\\c#\\Ribalka\\ribalka\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{2256A241-37CF-435C-9105-E56A606E831E}|Ribalka\\Ribalka.csproj|solutionrelative:ribalka\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2256A241-37CF-435C-9105-E56A606E831E}|Ribalka\\Ribalka.csproj|D:\\CODING\\mocha\\c#\\Ribalka\\ribalka\\sotrudnikiwindow2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{2256A241-37CF-435C-9105-E56A606E831E}|Ribalka\\Ribalka.csproj|solutionrelative:ribalka\\sotrudnikiwindow2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2256A241-37CF-435C-9105-E56A606E831E}|Ribalka\\Ribalka.csproj|D:\\CODING\\mocha\\c#\\Ribalka\\ribalka\\pfniu.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}",
-      "RelativeMoniker": "D:0:0:{2256A241-37CF-435C-9105-E56A606E831E}|Ribalka\\Ribalka.csproj|solutionrelative:ribalka\\pfniu.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2256A241-37CF-435C-9105-E56A606E831E}|Ribalka\\Ribalka.csproj|D:\\CODING\\mocha\\c#\\Ribalka\\ribalka\\sotrudnikiwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{2256A241-37CF-435C-9105-E56A606E831E}|Ribalka\\Ribalka.csproj|solutionrelative:ribalka\\sotrudnikiwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{2256A241-37CF-435C-9105-E56A606E831E}|Ribalka\\Ribalka.csproj|d:\\coding\\mocha\\c#\\ribalka\\ribalka\\skladiwindow2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2256A241-37CF-435C-9105-E56A606E831E}|Ribalka\\Ribalka.csproj|solutionrelative:ribalka\\skladiwindow2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2256A241-37CF-435C-9105-E56A606E831E}|Ribalka\\Ribalka.csproj|D:\\CODING\\mocha\\c#\\Ribalka\\ribalka\\skladiwindow2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{2256A241-37CF-435C-9105-E56A606E831E}|Ribalka\\Ribalka.csproj|solutionrelative:ribalka\\skladiwindow2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2256A241-37CF-435C-9105-E56A606E831E}|Ribalka\\Ribalka.csproj|D:\\CODING\\mocha\\c#\\Ribalka\\ribalka\\snastiwindow2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{2256A241-37CF-435C-9105-E56A606E831E}|Ribalka\\Ribalka.csproj|solutionrelative:ribalka\\snastiwindow2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{2256A241-37CF-435C-9105-E56A606E831E}|Ribalka\\Ribalka.csproj|D:\\CODING\\mocha\\c#\\Ribalka\\ribalka\\skladiwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2256A241-37CF-435C-9105-E56A606E831E}|Ribalka\\Ribalka.csproj|solutionrelative:ribalka\\skladiwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2256A241-37CF-435C-9105-E56A606E831E}|Ribalka\\Ribalka.csproj|D:\\CODING\\mocha\\c#\\Ribalka\\ribalka\\asd.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
-      "RelativeMoniker": "D:0:0:{2256A241-37CF-435C-9105-E56A606E831E}|Ribalka\\Ribalka.csproj|solutionrelative:ribalka\\asd.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+      "AbsoluteMoniker": "D:0:0:{2256A241-37CF-435C-9105-E56A606E831E}|Ribalka\\Ribalka.csproj|D:\\CODING\\mocha\\c#\\Ribalka\\ribalka\\skladiwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2256A241-37CF-435C-9105-E56A606E831E}|Ribalka\\Ribalka.csproj|solutionrelative:ribalka\\skladiwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2256A241-37CF-435C-9105-E56A606E831E}|Ribalka\\Ribalka.csproj|D:\\CODING\\mocha\\c#\\Ribalka\\ribalka\\pfniu.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}",
+      "RelativeMoniker": "D:0:0:{2256A241-37CF-435C-9105-E56A606E831E}|Ribalka\\Ribalka.csproj|solutionrelative:ribalka\\pfniu.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2256A241-37CF-435C-9105-E56A606E831E}|Ribalka\\Ribalka.csproj|d:\\coding\\mocha\\c#\\ribalka\\ribalka\\snastiwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2256A241-37CF-435C-9105-E56A606E831E}|Ribalka\\Ribalka.csproj|solutionrelative:ribalka\\snastiwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2256A241-37CF-435C-9105-E56A606E831E}|Ribalka\\Ribalka.csproj|D:\\CODING\\mocha\\c#\\Ribalka\\ribalka\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2256A241-37CF-435C-9105-E56A606E831E}|Ribalka\\Ribalka.csproj|solutionrelative:ribalka\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2256A241-37CF-435C-9105-E56A606E831E}|Ribalka\\Ribalka.csproj|d:\\coding\\mocha\\c#\\ribalka\\ribalka\\snastiwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2256A241-37CF-435C-9105-E56A606E831E}|Ribalka\\Ribalka.csproj|solutionrelative:ribalka\\snastiwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2256A241-37CF-435C-9105-E56A606E831E}|Ribalka\\Ribalka.csproj|D:\\CODING\\mocha\\c#\\Ribalka\\ribalka\\sotrudnikiwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2256A241-37CF-435C-9105-E56A606E831E}|Ribalka\\Ribalka.csproj|solutionrelative:ribalka\\sotrudnikiwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,24 +46,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Sklad.cs",
-              "DocumentMoniker": "D:\\CODING\\mocha\\c#\\Ribalka\\Ribalka\\Sklad.cs",
-              "RelativeDocumentMoniker": "Ribalka\\Sklad.cs",
-              "ToolTip": "D:\\CODING\\mocha\\c#\\Ribalka\\Ribalka\\Sklad.cs",
-              "RelativeToolTip": "Ribalka\\Sklad.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 0,
+              "Title": "skladiWindow2.xaml.cs",
+              "DocumentMoniker": "D:\\CODING\\mocha\\c#\\Ribalka\\Ribalka\\skladiWindow2.xaml.cs",
+              "RelativeDocumentMoniker": "Ribalka\\skladiWindow2.xaml.cs",
+              "ToolTip": "D:\\CODING\\mocha\\c#\\Ribalka\\Ribalka\\skladiWindow2.xaml.cs",
+              "RelativeToolTip": "Ribalka\\skladiWindow2.xaml.cs",
+              "ViewState": "AQIAAD4AAAAAAAAAAAAwwFIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-15T21:34:53.822Z",
+              "WhenOpened": "2024-03-18T10:07:54.022Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 1,
               "Title": "skladiWindow2.xaml",
               "DocumentMoniker": "D:\\CODING\\mocha\\c#\\Ribalka\\Ribalka\\skladiWindow2.xaml",
               "RelativeDocumentMoniker": "Ribalka\\skladiWindow2.xaml",
@@ -83,26 +75,65 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "snastiWindow.xaml",
               "DocumentMoniker": "D:\\CODING\\mocha\\c#\\Ribalka\\Ribalka\\snastiWindow.xaml",
               "RelativeDocumentMoniker": "Ribalka\\snastiWindow.xaml",
               "ToolTip": "D:\\CODING\\mocha\\c#\\Ribalka\\Ribalka\\snastiWindow.xaml",
               "RelativeToolTip": "Ribalka\\snastiWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-15T19:49:42.81Z",
+              "WhenOpened": "2024-03-18T10:05:13.581Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\CODING\\mocha\\c#\\Ribalka\\Ribalka\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Ribalka\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\CODING\\mocha\\c#\\Ribalka\\Ribalka\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Ribalka\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAqwBoAAABVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-15T19:13:07.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "skladiWindow.xaml.cs",
+              "DocumentMoniker": "D:\\CODING\\mocha\\c#\\Ribalka\\Ribalka\\skladiWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Ribalka\\skladiWindow.xaml.cs",
+              "ToolTip": "D:\\CODING\\mocha\\c#\\Ribalka\\Ribalka\\skladiWindow.xaml.cs",
+              "RelativeToolTip": "Ribalka\\skladiWindow.xaml.cs",
+              "ViewState": "AQIAADcAAAAAAAAAAAAlwEoAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T08:08:13.326Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "sotrudnikiWindow.xaml",
-              "DocumentMoniker": "D:\\CODING\\mocha\\c#\\Ribalka\\Ribalka\\sotrudnikiWindow.xaml",
-              "RelativeDocumentMoniker": "Ribalka\\sotrudnikiWindow.xaml",
-              "ToolTip": "D:\\CODING\\mocha\\c#\\Ribalka\\Ribalka\\sotrudnikiWindow.xaml",
-              "RelativeToolTip": "Ribalka\\sotrudnikiWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-15T19:49:32.661Z",
+              "Title": "snastiWindow.xaml.cs",
+              "DocumentMoniker": "D:\\CODING\\mocha\\c#\\Ribalka\\Ribalka\\snastiWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Ribalka\\snastiWindow.xaml.cs",
+              "ToolTip": "D:\\CODING\\mocha\\c#\\Ribalka\\Ribalka\\snastiWindow.xaml.cs",
+              "RelativeToolTip": "Ribalka\\snastiWindow.xaml.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAYwEYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T07:07:13.055Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "pfniu.xsd",
+              "DocumentMoniker": "D:\\CODING\\mocha\\c#\\Ribalka\\Ribalka\\pfniu.xsd",
+              "RelativeDocumentMoniker": "Ribalka\\pfniu.xsd",
+              "ToolTip": "D:\\CODING\\mocha\\c#\\Ribalka\\Ribalka\\pfniu.xsd",
+              "RelativeToolTip": "Ribalka\\pfniu.xsd",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003579|",
+              "WhenOpened": "2024-03-18T06:47:20.078Z",
               "EditorCaption": ""
             },
             {
@@ -119,76 +150,14 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "pfniu.xsd",
-              "DocumentMoniker": "D:\\CODING\\mocha\\c#\\Ribalka\\Ribalka\\pfniu.xsd",
-              "RelativeDocumentMoniker": "Ribalka\\pfniu.xsd",
-              "ToolTip": "D:\\CODING\\mocha\\c#\\Ribalka\\Ribalka\\pfniu.xsd",
-              "RelativeToolTip": "Ribalka\\pfniu.xsd",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003579|",
-              "WhenOpened": "2024-03-15T19:20:24.572Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "D:\\CODING\\mocha\\c#\\Ribalka\\Ribalka\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "Ribalka\\MainWindow.xaml.cs",
-              "ToolTip": "D:\\CODING\\mocha\\c#\\Ribalka\\Ribalka\\MainWindow.xaml.cs",
-              "RelativeToolTip": "Ribalka\\MainWindow.xaml.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAADwvxcAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-15T19:13:07.23Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "sotrudnikiWindow2.xaml",
-              "DocumentMoniker": "D:\\CODING\\mocha\\c#\\Ribalka\\Ribalka\\sotrudnikiWindow2.xaml",
-              "RelativeDocumentMoniker": "Ribalka\\sotrudnikiWindow2.xaml",
-              "ToolTip": "D:\\CODING\\mocha\\c#\\Ribalka\\Ribalka\\sotrudnikiWindow2.xaml",
-              "RelativeToolTip": "Ribalka\\sotrudnikiWindow2.xaml",
+              "DocumentIndex": 8,
+              "Title": "sotrudnikiWindow.xaml",
+              "DocumentMoniker": "D:\\CODING\\mocha\\c#\\Ribalka\\Ribalka\\sotrudnikiWindow.xaml",
+              "RelativeDocumentMoniker": "Ribalka\\sotrudnikiWindow.xaml",
+              "ToolTip": "D:\\CODING\\mocha\\c#\\Ribalka\\Ribalka\\sotrudnikiWindow.xaml",
+              "RelativeToolTip": "Ribalka\\sotrudnikiWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-15T20:48:12.315Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "D:\\CODING\\mocha\\c#\\Ribalka\\Ribalka\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "Ribalka\\MainWindow.xaml",
-              "ToolTip": "D:\\CODING\\mocha\\c#\\Ribalka\\Ribalka\\MainWindow.xaml",
-              "RelativeToolTip": "Ribalka\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-15T19:05:54.121Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "snastiWindow2.xaml",
-              "DocumentMoniker": "D:\\CODING\\mocha\\c#\\Ribalka\\Ribalka\\snastiWindow2.xaml",
-              "RelativeDocumentMoniker": "Ribalka\\snastiWindow2.xaml",
-              "ToolTip": "D:\\CODING\\mocha\\c#\\Ribalka\\Ribalka\\snastiWindow2.xaml",
-              "RelativeToolTip": "Ribalka\\snastiWindow2.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-15T20:48:20.218Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "asd.edmx [Diagram1]",
-              "DocumentMoniker": "D:\\CODING\\mocha\\c#\\Ribalka\\Ribalka\\asd.edmx",
-              "RelativeDocumentMoniker": "Ribalka\\asd.edmx",
-              "ToolTip": "D:\\CODING\\mocha\\c#\\Ribalka\\Ribalka\\asd.edmx [Diagram1]",
-              "RelativeToolTip": "Ribalka\\asd.edmx [Diagram1]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
-              "WhenOpened": "2024-03-15T20:18:52.888Z",
-              "EditorCaption": " [Diagram1]"
+              "WhenOpened": "2024-03-15T19:49:32.661Z"
             }
           ]
         }

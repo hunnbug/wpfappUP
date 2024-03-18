@@ -9,10 +9,21 @@
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
+            <RowDefinition Height="5*"/>
+            <RowDefinition/>
             <RowDefinition/>
         </Grid.RowDefinitions>
-        <DataGrid x:Name="skladiDG2" d:ItemsSource="{d:SampleData ItemCount=5}" Grid.Column="0" Grid.Row="0"/>
+        <DataGrid x:Name="skladiDG2" d:ItemsSource="{d:SampleData ItemCount=5}" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="3"/>
+        <Button x:Name="AddButton"      Content="Добавить" HorizontalAlignment="Center" Grid.Row="1" VerticalAlignment="Center" Height="72" Width="266" Click="AddClick"/>
+        <Button x:Name="ChangeButton" Grid.Column="1" Content="Изменить" HorizontalAlignment="Center" Grid.Row="1" VerticalAlignment="Center" Height="72" Width="266" Click="ChngClick"/>
+        <Button x:Name="DeleteButton" Grid.Column="2" Content="Удалить" HorizontalAlignment="Center" Grid.Row="1" VerticalAlignment="Center" Height="72" Width="266" Click="DltClick"/>
+        <TextBox x:Name="address" HorizontalAlignment="Center" Grid.Row="2" TextWrapping="Wrap" Text="Адресс" VerticalAlignment="Top" Width="258" Height="25" Margin="0,37,0,0"/>
+        <TextBox x:Name="kolvo" HorizontalAlignment="Center" VerticalAlignment="Top" Grid.Row="2" TextWrapping="Wrap" Text="Количество" Width="263" Margin="3,4,0,0" Height="24"/>
+        <TextBox x:Name="address2" HorizontalAlignment="Center" Grid.Row="2" Grid.Column="1" TextWrapping="Wrap" Text="Адресс" VerticalAlignment="Top" Width="258" Height="16" Margin="0,46,0,0"/>
+        <TextBox x:Name="kolvo2" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Row="2" Grid.Column="1" TextWrapping="Wrap" Text="Количество" Width="263" Margin="3,4,0,0" Height="18"/>
     </Grid>
 </Window>
